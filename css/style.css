@@ -13,6 +13,12 @@ p {
     font-weight: 400;
 }
 
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .rojo{
     color:red;
 }
