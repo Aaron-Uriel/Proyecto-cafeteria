@@ -1,0 +1,18 @@
+body{
+    background-image: url("f.jpg");                
+}
+.rojo{
+    color:red;
+}
+
+.negro{
+    color:bisque;
+}
+
+.blanco{
+    color:darkturquoise;
+}
+
+img {
+    border-radius: 5px;
+}
