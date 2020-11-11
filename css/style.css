@@ -5,9 +5,10 @@ header, .fondo, .contenedor {
 }
 
 header, .fondo {
-    background-color: #37474f;
-    border-radius:    5px;
-    border:           2pt solid #102027;
+    background-color: #bf360c;
+    border-radius:    8px;
+    border:           2pt solid #870000;
+    color: white;
 }
 
 p, .subtítulo {
