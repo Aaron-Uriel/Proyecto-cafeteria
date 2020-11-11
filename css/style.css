@@ -1,14 +1,19 @@
-header, .fondo, .contenedor {
+header, .fondo, .contenedor, .botón {
     width:            fit-content;
     padding-left:     5px;
     padding-right:    5px;
+    padding-top:      5px;
+    padding-bottom:   5px;
+    color: white;
 }
 
-header, .fondo {
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header, .fondo, .botón {
     background-color: #bf360c;
-    border-radius:    8px;
-    border:           2pt solid #870000;
-    color: white;
+    border:           2.5pt solid #870000;
 }
 
 p, .subtítulo {
