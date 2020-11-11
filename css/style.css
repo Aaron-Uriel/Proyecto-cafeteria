@@ -24,13 +24,14 @@ p, .subtítulo {
 }
 
 .subtítulo {
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 .centrar {
-    margin-left:  auto;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
-    text-align:   center;
+    width: 50%;
 }
 
 .rojo{
@@ -47,11 +48,11 @@ p, .subtítulo {
 
 .título {
     font-family: "Merriweather";
-    font-size:   32pt;
+    font-size:   28pt;
     font-weight: 700;
 }
 
 #logo {
-    width:  10%;
-    height: 10%;
+    width:  30%;
+    height: auto;
 }
