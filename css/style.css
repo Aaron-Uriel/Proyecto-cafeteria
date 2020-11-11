@@ -2,6 +2,7 @@ header, .fondo, .contenedor, .botón {
     width:            fit-content;
     padding: 5px;
     color: white;
+    text-decoration: none;
 }
 
 body {
