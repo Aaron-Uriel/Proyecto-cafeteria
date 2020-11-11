@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
-header {
-    font-family: 'Merriweather';
-    font-weight: 700;
-    background-color: seashell;
+header, .fondo {
+    background-color: white;
     width: fit-content;
     border-radius: 5px;
     padding-left: 10px;
@@ -15,6 +13,7 @@ body{
 }
 
 p {
+    font-family: "Merriweather";
     font-weight: 400;
 }
 
@@ -34,4 +33,10 @@ p {
 
 .blanco{
     color:darkturquoise;
+}
+
+.títulos {
+    font-family: "Merriweather";
+    font-size: 24pt;
+    font-weight: 700;
 }
