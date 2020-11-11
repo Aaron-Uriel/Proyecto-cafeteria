@@ -1,7 +1,8 @@
 header, .fondo, .contenedor, .botón {
-    width:            fit-content;
+    width: fit-content;
     padding: 5px;
     color: white;
+    border-radius: 5px;
     text-decoration: none;
 }
 
@@ -10,8 +11,9 @@ body {
 }
 
 header, .fondo, .botón {
+    display: inline-block;
     background-color: #bf360c;
-    border:           2.5pt solid #870000;
+    border: 2.5pt solid #870000;
     margin: 5px;
 }
 
