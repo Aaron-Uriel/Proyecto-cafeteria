@@ -8,14 +8,15 @@ header, .fondo, .contenedor {
 }
 
 header, .fondo {
-    background-color: ghostwhite;
+    background-color: #37474f;
     border-radius:    5px;
-    border:           2pt solid brown;
+    border:           2pt solid #102027;
 }
 
 body{
     background-image: url("../imágenes/f.jpg");
     background-size:  cover;
+    color: white;
 }
 
 p, .subtítulo {
@@ -31,7 +32,6 @@ p, .subtítulo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .rojo{
