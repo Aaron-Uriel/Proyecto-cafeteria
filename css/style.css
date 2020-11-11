@@ -1,9 +1,6 @@
 header, .fondo, .contenedor, .botón {
     width:            fit-content;
-    padding-left:     5px;
-    padding-right:    5px;
-    padding-top:      5px;
-    padding-bottom:   5px;
+    padding: 5px;
     color: white;
 }
 
@@ -14,6 +11,7 @@ body {
 header, .fondo, .botón {
     background-color: #bf360c;
     border:           2.5pt solid #870000;
+    margin: 5px;
 }
 
 p, .subtítulo {
