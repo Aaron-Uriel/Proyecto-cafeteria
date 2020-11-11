@@ -3,6 +3,8 @@
 header {
     font-family: 'Merriweather';
     font-weight: 700;
+    background-color: seashell;
+    width: fit-content;
 }
 
 body{
