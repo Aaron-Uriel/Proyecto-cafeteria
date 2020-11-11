@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 header, .fondo {
     background-color: ghostwhite;
@@ -13,9 +14,13 @@ body{
     background-image: url("../imágenes/f.jpg");
 }
 
-p {
-    font-family: "Merriweather";
+p, .subtítulo {
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
+}
+
+.subtítulo {
+    font-size: 16pt;
 }
 
 .centrar {
@@ -36,8 +41,8 @@ p {
     color:darkturquoise;
 }
 
-.títulos {
+.título {
     font-family: "Merriweather";
-    font-size: 24pt;
+    font-size: 32pt;
     font-weight: 700;
 }
