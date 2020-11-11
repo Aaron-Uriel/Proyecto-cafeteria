@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    background-image: url("../imágenes/fondo\ madera.webp");
+    background-size:  cover;
+    color: white;
+}
+
+#logo {
+    width:  30%;
+    height: auto;
+}
