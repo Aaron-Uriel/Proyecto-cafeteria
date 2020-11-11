@@ -12,6 +12,9 @@ header, .fondo {
 
 body{
     background-image: url("../imágenes/f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p, .subtítulo {
