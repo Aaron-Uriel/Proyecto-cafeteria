@@ -5,6 +5,9 @@ header {
     font-weight: 700;
     background-color: seashell;
     width: fit-content;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 body{
