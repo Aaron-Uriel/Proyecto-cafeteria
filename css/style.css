@@ -1,7 +1,7 @@
 header, .fondo, .contenedor, .botón {
     width: fit-content;
     padding: 5px;
-    color: #d4d4d4;
+    color: #FAFAFA;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -25,12 +25,12 @@ header, .fondo, .botón {
 
 .botón {
     display: inline-block;
-    width: 10em;
+    width: 10rem;
     transition-duration: 0.5s;
 }
 
 .botón:hover {
-    background-color: #424853;
+    background-color: #424850;
 }
 
 p, .subtítulo {
