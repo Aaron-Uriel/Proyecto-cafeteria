@@ -26,6 +26,11 @@ header, .fondo, .botón {
 .botón {
     display: inline-block;
     width: 10em;
+    transition-duration: 0.5s;
+}
+
+.botón:hover {
+    background-color: #424853;
 }
 
 p, .subtítulo {
