@@ -2,7 +2,6 @@ header, .fondo, .contenedor, .botón {
     width: fit-content;
     padding: 5px;
     color: white;
-    border-radius: 5px;
     text-decoration: none;
 }
 
