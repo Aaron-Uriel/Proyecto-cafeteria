@@ -1,8 +1,9 @@
 header, .fondo, .contenedor, .botón {
     width: fit-content;
     padding: 5px;
-    color: white;
+    color: #d4d4d4;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 body {
@@ -17,8 +18,8 @@ img {
 
 header, .fondo, .botón {
     display: block;
-    background-color: #bf360c;
-    border: 2.5pt solid #870000;
+    background-color: #242424;
+    border: 2pt solid #82a9e9;
     margin: 5px;
 }
 
