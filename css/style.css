@@ -10,11 +10,23 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
 header, .fondo, .botón {
-    display: inline-block;
+    display: block;
     background-color: #bf360c;
     border: 2.5pt solid #870000;
     margin: 5px;
+}
+
+.botón {
+    display: inline-block;
+    width: 10em;
 }
 
 p, .subtítulo {
@@ -27,11 +39,11 @@ p, .subtítulo {
 }
 
 .centrar {
-    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
 
 .rojo{
     color:red;
