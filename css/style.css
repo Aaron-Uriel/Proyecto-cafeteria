@@ -1,71 +1,70 @@
-header, .fondo, .contenedor, .botón {
-    width: fit-content;
-    padding: 5px;
-    color: #FAFAFA;
-    text-decoration: none;
-    border-radius: 5px;
+/*Sección de fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.título {
+    font-family: "Merriweather";
+    font-size:   28pt;
+    font-weight: 700;
 }
 
+.subtítulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+/*Tipografía predeterminada*/
 body {
     font-family: 'Noto Sans', sans-serif;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*Fin de sección de fuentes*/
 
-header, .fondo, .botón {
+.contenedor, .botón {
+    width: fit-content;
+    padding: 5px;
+    color: #FAFAFA;
+    border-radius: 5px;
     display: block;
     background-color: #242424;
     border: 2pt solid #82a9e9;
     margin: 5px;
 }
 
+
+/*Para que la imagen de fondo esté centrada y no se mueva*/
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Sección de botones*/
 .botón {
     display: inline-block;
     width: 10rem;
     transition-duration: 0.5s;
 }
 
+a.botón {
+    text-decoration: none;
+}
+
 .botón:hover {
     background-color: #424850;
 }
+/*Fin de sección de botones*/
 
-p, .subtítulo {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight:  400;
-}
 
-.subtítulo {
-    font-size: 14pt;
-}
-
-.centrar {
+.centrar{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.centrar_xy {
-    margin: auto;
-}
-
-.rojo{
-    color:red;
-}
-
-.negro{
-    color:bisque;
-}
-
-.blanco{
-    color:darkturquoise;
-}
-
-.título {
-    font-family: "Merriweather";
-    font-size:   28pt;
-    font-weight: 700;
+img.centrar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
