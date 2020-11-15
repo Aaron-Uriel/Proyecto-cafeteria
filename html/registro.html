@@ -18,26 +18,20 @@
 <body>
 
     <br>
-    <header class="centrar">
+    <header class="centrar contenedor título">
         Registro de cuenta
     </header><br>
-    <form>
-        <center>
-            <br><label for="fname">NOMBRE(s):</label><br>
+    <form class="contenedor centrar">
+            <br><label for="fname">Nombre:</label><br>
             <input type="text" name="fname" value=""><br>
 
-            <br><label for="fapellido">APELLIDOS:</label><br>
+            <br><label for="fapellido">Apellido:</label><br>
             <input type="text" name="fapellido" value=""><br>
 
-            <br><label for="fcontrol">N° CONTROL:</label><br>
+            <br><label for="fcontrol">Número de control:</label><br>
             <input type="text" name="fcontrol" maxlength="6">
 
-
-            <br><input type="button" value="Registrar" onclick="registro(this)">
-            <br><input type="reset" value="Reset">
-
-
-        </center>
+            <br><a id="registro" class="botón" onclick="registro(this)">Registrar</a>
     </form>
 </body>
 

@@ -2,3 +2,7 @@ body{
     background-image: url("../imágenes/fondo\ madera.jpg");
     background-size:  cover;
 }
+
+#registrar {
+    position: absolute;
+}
