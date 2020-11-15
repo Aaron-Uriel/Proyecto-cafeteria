@@ -48,6 +48,9 @@ p, .subtítulo {
     text-align: center;
 }
 
+.centrar_xy {
+    margin: auto;
+}
 
 .rojo{
     color:red;

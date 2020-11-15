@@ -2,14 +2,41 @@
 <html lang="es">
 
 <head>
-
-</head>
     <meta charset="UTF-8">
     <title>Registro</title>
     <base href="..">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+      <script>
+           function registro (button){
+           console.log(button.form.elements['fname'].value);
+      }
+</script>
+</head>
+
 <body>
 
+    <br><header class="centrar_xy">
+        Registro de cuenta
+    </header><br>
+<form>
+<center>
+<br><label for="fname">NOMBRE(s):</label><br>
+<input type="text" name="fname" value=""><br>
+
+<br><label for="fapellido">APELLIDOS:</label><br>
+<input type="text" name="fapellido" value=""><br>
+
+<br><label for="fcontrol">N° CONTROL:</label><br>
+<input type="text" name="fcontrol" maxlength="6">
+
+
+<br><input type="button" value="Registrar" onclick="registro(this)">
+<br><input type="reset" value="Reset">
+
+
+</center>
+</form>
 </body>
 
 </html>
