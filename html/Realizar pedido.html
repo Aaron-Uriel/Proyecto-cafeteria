@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Realizar pedido</title>
+    <base href="..">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/Realizar pedido.css">
+
+    <script>
+        function Realizar pedido(button) {
+            console.log(button.form.elements['fname'].value);
+        }
+    </script>
+</head>
+
+<body>
+
+    <br>
+    <header class="centrar contenedor título">
+       Realizar pedido
+    </header><br>
+    <form class="contenedor centrar">
+            <br><label for="fname">Nombre:</label><br>
+            <input type="text" name="fname" value=""><br>
+
+      
+
+            <br><label for="fcontrol">Número de control:</label><br>
+            <input type="text" name="fcontrol" maxlength="6">
+
+            <br><a href="html/menú.html" class="botón">Entrar</a>
+    </form>
+</body>
+
+</html>
