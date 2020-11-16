@@ -43,8 +43,8 @@ body {
 /*Sección de botones*/
 .botón {
     display: inline-block;
-    transition-duration: 0.5s;
     width: fit-content;
+    transition-duration: 0.5s;
 }
 
 /*Es para que los botones de la primera página se vean bien, esto lo deberíamos
