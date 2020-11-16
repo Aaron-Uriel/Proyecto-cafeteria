@@ -43,8 +43,15 @@ body {
 /*Sección de botones*/
 .botón {
     display: inline-block;
-    width: 10rem;
     transition-duration: 0.5s;
+    width: fit-content;
+}
+
+/*Es para que los botones de la primera página se vean bien, esto lo deberíamos
+  de borrar después
+*/
+body nav .botón {
+    width: 10rem;
 }
 
 a.botón {
