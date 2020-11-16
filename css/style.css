@@ -21,7 +21,7 @@ body {
 
 /*Fin de sección de fuentes*/
 
-.contenedor, .botón{
+.contenedor, .botón {
     width: fit-content;
     padding: 5px;
     color: #FAFAFA;
@@ -30,6 +30,10 @@ body {
     background-color: #242424;
     border: 2pt solid #82a9e9;
     margin: 5px;
+}
+
+form.contenedor {
+    width: 22%;
 }
 
 
@@ -70,7 +74,7 @@ a.botón {
     text-align: center;
 }
 
-.contenedor.centrar {
+.contenedor.centrar, .contenedor{
     margin-left: auto;
     margin-right: auto;
     text-align: left;
