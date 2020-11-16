@@ -1,8 +1,3 @@
-img {
-    border: 2pt solid white;
-    border-radius: 5pt;
-}
-
 body {
     background-image: url("../imágenes/f.jpg");
     background-attachment: fixed;
